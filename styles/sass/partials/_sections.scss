@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
-    .item {
+    .items {
         padding: 45px;
         margin: 50px 25px 25px;
         // flex-basis: 50%;
@@ -29,15 +29,15 @@
     }
 }
 
-// .itemOne {
-
-// }
-// .itemTwo {
-
-// }
-// .itemThree {
-
-// }
-// .itemFour {
-
-// }
+.itemOne {
+    background-color: $quinary;
+}
+.itemTwo {
+    background-color: $secondary;
+}
+.itemThree {
+    background-color: $tertiary;
+}
+.itemFour {
+    background-color: $quaternary;
+}

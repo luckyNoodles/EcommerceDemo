@@ -16,9 +16,12 @@
 // h4: 34px;
 // h5: 14px;
 
-@use "./partials/setup.scss";
-@use "./partials/typography.scss";
-@use "./partials/variables.scss";
-@use "./partials/baseStyles.scss";
-@use "./partials/sections.scss";
+@use "./partials/setup";
+@use "./partials/typography";
+@use "./partials/variables";
+@use "./partials/baseStyles";
+@use "./partials/header";
+@use "./partials/footer";
+@use "./partials/nav";
+@use "./partials/sections";
 @use "./partials/mediaQueries";
