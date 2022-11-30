@@ -1,5 +1,23 @@
 @media (max-width: 1000px) {
     /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+    footer {
+        .footerFlexContainer {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 100px;
+            .logo {
+                margin-bottom: 30px;
+            }
+        }
+        .footerNav {
+            width: 80%;
+            nav {
+                ul {
+                    width: auto;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 800px) {
