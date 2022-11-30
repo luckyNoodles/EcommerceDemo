@@ -18,5 +18,7 @@
 
 @use "./partials/setup.scss";
 @use "./partials/typography.scss";
-@use "./partials/variables";
-@use "./partials/baseStyles";
+@use "./partials/variables.scss";
+@use "./partials/baseStyles.scss";
+@use "./partials/sections.scss";
+@use "./partials/mediaQueries";
